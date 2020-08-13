@@ -17,15 +17,16 @@ document.write(
 '              <li><a href="./index.html">Personal Webpage</a></li>' +
 '              <li><a href="./index.html#aboutmeyers">About</a></li>' +
 '              <li><a href="./index.html#media">Recent Media</a></li>' +
+'              <li><a href="./index.html#lectures">Lectures</a></li>' +
 '              <li><a href="./index.html#cv">CV</a></li>' +
 '              <li class="divider"></li>' +
 '            </ul>' +
 '          <li class="dropdown">' +
 '            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="about">About Lab<span class="caret"></span></a>' +
 '            <ul class="dropdown-menu" aria-labelledby="about">' +
-'              <li><a href="./../about.html#interests">Research interests</a></li>' +
-'              <li><a href="./../about.html#opportunities">Graduate and postdoctoral opportunities</a></li>' +
-'              <li><a href="./../about.html#press">Media coverage</a></li>' +
+'              <li><a href="./../about.html#interests">Research Interests</a></li>' +
+'              <li><a href="./../about.html#opportunities">Graduate and Postdoctoral Opportunities</a></li>' +
+'              <li><a href="./../about.html#press">Past Media</a></li>' +
 '              <li class="divider"></li>' +
 '            </ul>' +
 '          </li>' +
