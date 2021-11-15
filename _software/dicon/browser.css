@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 2ex;
+    margin-right: 2ex;
+    max-width: 80em;
+}
+
+p, th, td {
+    text-align: justify;
+}
+
+h1 {
+    padding-left: 0.2ex;
+    color: black;
+    background-color: #d0d0ff;
+}
+
+h2 {
+    padding-left: 0.6ex;
+    margin-top: 1.5em;
+    color: black;
+    background-color: #dadac0;
+}
+
+h2 a[id]:hover:after {
+    content: " #"attr(id);
+    color: #aaaa90;
+    font-style: italic;
+    font-size: 50%;
+}
+
+a[href] {
+    color: #01017f;
+}
+
+a[href]:link {
+}
+
+a[href]:visited {
+}
+
+a[href]:hover {
+    text-decoration: underline;
+    background-color: #dfdfff;
+}
+
+table.download th, td {
+    vertical-align: top;
+    max-width: 40em;
+    padding-left: 2em;
+}
+
+table.download th:first-child, td:first-child {
+    padding-left: 0em;
+}
+
+span.version {
+    font-family: monospace;
+}
+
+span.file {
+    font-family: monospace;
+}
+
+em.sc {
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+div.plate {
+    border-top: 1px solid black;
+    margin-top: 4em;
+    font-size: 80%;
+}
+
+dt:after {
+    content : ":";
+}
+
+dl dt {
+    font-weight : bold;
+    margin-bottom : 0.2ex;
+}
+
+dl dd {
+    margin-bottom : 1ex;
+}
+
+dl dl dt {
+    font-weight : normal;
+    font-style : italic;
+    margin-bottom : 0.1ex;
+}
+
+dl dl dd {
+    margin-bottom : 0.6ex;
+}
